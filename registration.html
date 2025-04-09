@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新用户注册</title>
+    <link rel="stylesheet" href="../lib/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body style="background-color: #e8e7e7;">
+    
+    <div class="reg p-5">
+        <div class="container ">
+            <div class="row g-4">
+                <!-- 标题居中 -->
+                <h2 class="mt-5 text-center">新用户注册</h2>
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                </div>
+                <div class="col text-center">
+                    <form action="#" method="post" class="form">
+                        <!-- 输入框和按钮添加外边距 -->
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1">1</span>
+                            <!-- 修改 name 属性 -->
+                            <input type="text" class="form-control" name="username" placeholder="设置用户名" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1">2</span>
+                            <!-- 修改 name 属性 -->
+                            <input type="text" class="form-control" name="phone" placeholder="请输入电话号码" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1">3</span>
+                            <!-- 修改 name 属性 -->
+                            <input type="text" class="form-control" name="verificationCode" placeholder="短信验证码" aria-label="Username" aria-describedby="basic-addon1">
+                            <!-- 调整按钮样式 -->
+                            <button class="input-group-text bg-success duanCode" type="button">获取短信验证</button>
+                        </div>
+
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1">4</span>
+                            <!-- 修改 name 属性 -->
+                            <input type="password" class="form-control" name="password" placeholder="请输入密码" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1">5</span>
+                            <!-- 修改 name 属性 -->
+                            <input type="password" class="form-control" name="confirmPassword" placeholder="请再次输入上面密码" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <!-- 调整复选框结构 -->
+                        <div class="form-check mb-4 text-start">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                我同意 <a href="#">《用户协议》</a>
+                            </label>
+                        </div>
+
+                        <!-- 按钮样式和外边距调整 -->
+                        <button class="btn btn-primary w-100 mb-4" type="submit" href="../html/index.html">注册</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="../Js/reg.js"></script>
+</body>
+</html>
