@@ -1,0 +1,29 @@
+.carousel-inner img {
+  height: 100%important;
+}
+@media (max-width: 992px) {
+  .carousel-inner .carousel-item {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-inner .carousel-item {
+    height: 500px;
+  }
+}
+.fixed-top {
+  background-color: transparent;
+  border: 0;
+}
+.reg .duanCode {
+  cursor: pointer;
+  text-decoration: none;
+}
+.reg .alert {
+  opacity: 0;
+}
